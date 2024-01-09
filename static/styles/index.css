@@ -1,0 +1,106 @@
+.nav{
+    background-color: saddlebrown;
+    height: 167px;
+}
+
+.nav img{
+    height: 100%;
+    width: 100px;
+}
+
+.delete-btn{
+    color: white;
+    background-color: red;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.edit-btn{
+    color: white;
+    background-color: green;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.edit-btn:hover{
+    padding: 5px 12px 5px 18px;
+    transition: 0.5s;
+}
+.delete-btn:hover{
+    padding: 5px 12px 5px 18px;
+    transition: 0.5s;
+}
+.delete-obj-title{
+    color: red;
+}
+
+.delete-page-btn{
+    color: white;
+    background-color: red;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 8px;
+}
+.delete-page-btn:hover{
+    padding: 5px 12px 5px 18px;
+    transition: 0.5s;
+}
+
+.sign-btn{
+    color: white;
+    background-color: chocolate;
+    text-decoration: none;
+    font-weight: 700;
+    padding:5px 15px;
+    border-radius: 8px;
+}
+.sign-btn:hover{
+    padding: 5px 12px 5px 18px;
+    transition: 0.5s;
+}
+
+.form-btn{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    font-weight: 700;
+    padding:5px 15px;
+    border-radius: 8px;
+}
+.form-btn:hover{
+    padding: 5px 12px 5px 18px;
+    transition: 0.5s;
+}
+
+.article-btn{
+    color: white;
+    background-color: green;
+    text-decoration: none;
+    font-weight: 700;
+    padding:5px 15px;
+    border-radius: 8px;
+
+}
+.article-btn:hover {
+    padding: 5px 12px 5px 18px;
+    transition: 0.5s;
+}
+
+.pillow-btn{
+    color: white;
+    background-color: coral;
+    text-decoration: none;
+    font-weight: 700;
+    padding:5px 15px;
+    border-radius: 8px;
+}
+.pillow-btn:hover {
+    padding: 5px 12px 5px 18px;
+    transition: 0.5s;
+}
+
+
+

@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+
+{% block header %}
+    <h1>Article Edit</h1>
+{% endblock %}
+
+{% block content %}
+
+    {% block primary_links %}
+        {{ block.super }}
+        <span>Article Change</span>
+    {% endblock %}
+
+<div class="col-md-6 offset-md-3">
+    <form method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <pre>
+            <code>Modified_date: {{ object.modified_date }}</code>
+            <code>Created_date: {{ object.created_date }}</code>
+        </pre>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+           <button class="article-btn " type="submit">Save</button>
+        </div>
+
+    </form>
+</div>
+{% endblock %}

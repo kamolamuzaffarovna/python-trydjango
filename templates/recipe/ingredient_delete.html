@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block title %}Ingredient Delete{% endblock %}
+
+{% block header %}
+   <h1>Recipes Ingredient Delete</h1>
+{% endblock %}
+
+{% block content %}
+
+    <div class="col-md-6 offset-md-3 mt-4">
+        <h3>Are you sure delete <span class="text-danger">"{{ object.title }}"</span>?</h3>
+    </div>
+
+    <form method="post">
+        {% csrf_token %}
+        <div class="button d-flex justify-content-end gap-2">
+            <button type="submit" class="btn btn-danger">Yes, i'm sure</button>
+            <a class="btn btn-secondary" href="{% url 'recipe:detail' recipe.slug %}">No. thanks!</a>
+        </div>
+    </form>
+
+{% endblock %}
